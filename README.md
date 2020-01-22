@@ -1,4 +1,4 @@
-# Lernfeld 5 - WHILE-Anweisungen
+# Lernfeld 5 - Schleifen
 
 ![](./imgs/while.jpg)
 
