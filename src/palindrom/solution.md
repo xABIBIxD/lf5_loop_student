@@ -1,7 +1,7 @@
-package palindrom;
+**Lösung Palindrom**
 
-public class Palindrom {
-    public boolean isPalindrom(String text){
+```
+public boolean isPalindrom(String text){
 
         text = deleteSpaces(text);
         text = text.toLowerCase();
@@ -22,3 +22,4 @@ public class Palindrom {
         return korrigiert;
     }
 }
+```
