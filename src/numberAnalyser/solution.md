@@ -1,4 +1,4 @@
-**Lösung Palindrom**
+**Lösung Number Analyser**
 
 ```
 public int getGGT(int number1, int number2){

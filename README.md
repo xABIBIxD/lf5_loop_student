@@ -9,3 +9,6 @@ Infoblätter:
 
 Folgende Aufgaben sind enthalten
 
+* [Palindrom**](./src/palindrom/task.md)
+* [Number Analyser**-***](./src/numberAnalyser/task.md)
+
