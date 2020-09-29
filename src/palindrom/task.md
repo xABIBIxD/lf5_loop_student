@@ -1,13 +1,13 @@
 #Palindrom**
 
-Palindrome (altgriechisch παλίνδρομος palíndromos „rückwärts laufend“) sind Wörter, Wortreihen, Ziffernfolgen
+Palindrome (altgriechisch palíndromos „rückwärts laufend“) sind Wörter, Wortreihen, Ziffernfolgen
 oder Sätze, die vorwärts wie rückwärts gelesen genau denselben Text ergeben. Groß- und Kleinschreibung, Wortgrenzen
  und Satzzeichen sind beim Rückwärtslesen gegebenenfalls zu ändern.
 
 Beispiele für Palindrome sind:
 
 Retter, Reliefpfeiler, Anna hetzte Hanna, Genie der Herr ehre dein Ego, 
-Ein Neger mit Gazelle zagt im Regen nie, Able was I ere I saw Elba (Napoleon, als er ins Exil nach Elba ging), 
+Able was I ere I saw Elba (Napoleon, als er ins Exil nach Elba ging), 
 123321
 
 ###Aufgaben
