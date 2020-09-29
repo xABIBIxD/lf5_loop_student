@@ -1,38 +1,93 @@
 **Lösung Figuren zeichnen**
 
 ```
-public class TableOfContext {
-    public String createEntry(String heading, String page){
-        int numberOfPoints;
-        String entry="";
-        if(heading.length() + page.length() <50) {
-            numberOfPoints = 50 - heading.length() - page.length();
-            entry=heading;
+package drawingFigures;
+
+public class DrawingFigures {
+
+    public void drawSquare(char sign, int numberOfSigns){
+        int numberOfSpaces;
+        // First Line with Stars
+	    for (int i = 0; i < numberOfSigns ; i++){
+            System.out.print(sign + " ");
         }
-        else{
-            return entry;
+        // next line
+        System.out.println("");
+        // middle lines with stars
+	    for (int x = 0; x < (numberOfSigns - 2) ; x++){
+            System.out.print(sign + " ");
+            numberOfSpaces = numberOfSigns - 2;
+            // middle empty spaces
+            for (int j = 0 ; j < numberOfSpaces ; j ++){
+                System.out.print("  ");
+            }
+            // last star in one row
+            System.out.println(sign);
+        }
+        // Last line with stars
+        for(int k = 0; k < numberOfSigns ; k++){
+            System.out.print(sign + " ");
+        }
+    }
+
+    public void drawRhombus(int diameter){
+        // first row
+        for (int s=1; s<=diameter/2; s++) {
+            System.out.print(' ');
+        }
+        System.out.println('.');
+
+        // upper part
+        for (int z=1; z<=diameter/2-1; z++) {
+            for (int s=1; s<=diameter/2-z; s++) {
+                System.out.print(' ');
+            }
+            System.out.print('/');
+            for (int s=1; s<=z*2-1; s++) {
+                System.out.print(' ');
+            }
+            System.out.println('\\');
         }
 
-        for(int i =1; i<=numberOfPoints; i++)
-            entry+=".";
-        entry+=page;
-        return entry;
-    }
-}
-```
-```
-import java.util.Scanner;
+        // middle row
+        System.out.print('.');
+        for (int s=1; s<=diameter-2; s++) {
+            System.out.print(' ');
+        }
+        System.out.println(".");
 
-public class TableOfContextUI {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String header, page;
-        System.out.print("Geben Sie die Überschrift ein: ");
-        header = sc.next();
-        System.out.print("Geben Sie die Seite ein: ");
-        page = sc.next();
-        TableOfContext toc = new TableOfContext();
-        System.out.print(toc.createEntry(header, page));
+        // lower part
+        for (int z=1; z<=diameter/2-1; z++) {
+            for (int s=1; s<=z; s++) {
+                System.out.print(' ');
+            }
+            System.out.print('\\');
+            for (int s=1; s<=diameter-2-z*2; s++) {
+                System.out.print(' ');
+            }
+            System.out.println("/");
+        }
+
+        // last row
+        for (int s=1; s<=diameter/2; s++) {
+            System.out.print(' ');
+        }
+        System.out.println('.');
     }
 }
+
+```
+```
+package drawingFigures;
+
+public class DrawingUI {
+    public static void main(String[] args){
+        DrawingFigures df = new DrawingFigures();
+        System.out.println();
+        df.drawRhombus(7);
+        System.out.println();
+        df.drawRhombus(11);
+    }
+}
+
 ```

@@ -9,6 +9,9 @@ Infoblätter:
 
 Folgende Aufgaben sind enthalten
 
-* [Palindrom**](./src/palindrom/task.md)
+* [Table of Context *](./src/tableOfContext/task.md)
+* [Number List Generator *](./src/numberListGenerator/task.md)
+* [Palindrom *-**](./src/palindrom/task.md)
+* [Drawing Figures **](./src/drawingFigures/task.md)
 * [Number Analyser**-***](./src/numberAnalyser/task.md)
 
