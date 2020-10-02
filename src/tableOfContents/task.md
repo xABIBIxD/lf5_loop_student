@@ -5,10 +5,12 @@ Inhaltsverzeichnis verarbeitet. So ein Eintrag besteht aus der Überschrift, ein
 Seitenzahl. Eine Zeile besteht dabei immer aus 50 Zeichen. 
 
 ###Beispiel:
-Überschrift: Kapitel 1, Seitenzahl: 3
+Überschrift: Einleitung
+
+Seitenzahl: 3
 
 
-Ergebnisstring: "Kapitel.........................................3"
+Ergebnisstring: "Einleitung......................................3"
 
 ###Aufgaben
 1. Implementiere in der Klasse `TableOfContents`die Methode `public String createEntry(String heading, String page)`. Sie 
