@@ -3,9 +3,9 @@
 ![](./imgs/while.jpg)
 
 Infoblätter: 
-* [IB Fußgesteuerte Schleifen](IB%20Fußgesteuerte%20Schleifen)
-* [IB Kopfgesteuerte Schleifen](./IB Kopfgesteuerte Schleifen)
-* [IB Zählergesteuerte Schleifen](./IB Zählergesteuerte Schleifen)
+* [IB Fußgesteuerte Schleifen](IB%20Fußgesteuerte%20Schleifen.md)
+* [IB Kopfgesteuerte Schleifen](IB%20Kopfgesteuerte%20Schleifen.md)
+* [IB Zählergesteuerte Schleifen](IB%20Zählergesteuerte%20Schleifen.md)
 
 Folgende Aufgaben sind enthalten
 
