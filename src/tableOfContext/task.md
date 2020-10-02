@@ -8,7 +8,7 @@ Seitenzahl. Eine Zeile besteht dabei immer aus 50 Zeichen.
 Überschrift: Kapitel 1, Seitenzahl: 3
 
 
-Ergebnisstring: "Kapitel .........................................3"
+Ergebnisstring: "Kapitel.........................................3"
 
 ###Aufgaben
 1. Implementiere in der Klasse `TableOfContext`die Methode `public String createEntry(String heading, String page)`. Sie 
