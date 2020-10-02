@@ -1,20 +1,19 @@
-package tableOfContext;
+package tableOfContents;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TableOfContextTest {
+public class TableOfContentsTest {
 
-    private TableOfContext toc;
+    private TableOfContents toc;
 
     @BeforeEach
     public void setUp(){
-        this.toc = new TableOfContext();
+        this.toc = new TableOfContents();
     }
 
     @DisplayName("Testet alle Fälle, in denen Überschrift und Seitenzahl in eine Zeile passen")

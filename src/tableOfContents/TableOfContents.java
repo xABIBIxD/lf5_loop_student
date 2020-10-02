@@ -1,6 +1,6 @@
-package tableOfContext;
+package tableOfContents;
 
-public class TableOfContext {
+public class TableOfContents {
     public String createEntry(String heading, String page) {
         return "";
     }

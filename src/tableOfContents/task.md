@@ -11,7 +11,7 @@ Seitenzahl. Eine Zeile besteht dabei immer aus 50 Zeichen.
 Ergebnisstring: "Kapitel.........................................3"
 
 ###Aufgaben
-1. Implementiere in der Klasse `TableOfContext`die Methode `public String createEntry(String heading, String page)`. Sie 
+1. Implementiere in der Klasse `TableOfContents`die Methode `public String createEntry(String heading, String page)`. Sie 
 nimmt eine Überschrift und eine Seitenzahl entgegen und gibt den Eintrag im oben beschriebenen Format zurück. Passt der 
 Eintrag nicht in eine Zeile, wird ein leerer String zurückgegeben. Schaue in der Dokumentation der Klasse String nach, 
 falls du die Methoden, die dafür nötig sind, nicht kennst: https://docs.oracle.com/javase/9/docs/api/java/lang/String.html

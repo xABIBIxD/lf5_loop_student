@@ -1,7 +1,7 @@
 **Lösung Inhaltsverzeichnis**
 
 ```
-public class TableOfContext {
+public class TableOfContents {
     public String createEntry(String heading, String page){
         int numberOfPoints;
         String entry="";
@@ -23,7 +23,7 @@ public class TableOfContext {
 ```
 import java.util.Scanner;
 
-public class TableOfContextUI {
+public class TableOfContentsUI {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String header, page;
