@@ -18,6 +18,11 @@ public class GeneratorTest {
         assertEquals(result, new Generator().generateNumbers(start, end));
     }
 
+    @Test
+    public void givenStartBelowEndWithNegativeNumber_whenGenerateNumbers_ThenReturnNumberList() {
+        assertEquals("-3,-2,-1,0,1,2", new Generator().generateNumbers(-3, 2));
+    }
+
     @ParameterizedTest(name = "start={0}, end={1}, result={2}")
     @CsvSource(delimiter = '-', value = {
             "5 - 3 -''",

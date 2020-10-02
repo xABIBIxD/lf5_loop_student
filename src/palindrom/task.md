@@ -6,7 +6,7 @@ oder Sätze, die vorwärts wie rückwärts gelesen genau denselben Text ergeben.
 
 Beispiele für Palindrome sind:
 
-Retter, Reliefpfeiler, Anna hetzte Hanna, Genie der Herr ehre dein Ego, Die Liebe ist Sieger stets rege ist sie bei Leid,
+Retter, Reliefpfeiler, Anna hetzte Hanna, O Genie der Herr ehre dein Ego, Die Liebe ist Sieger stets rege ist sie bei Leid,
 Able was I ere I saw Elba (Napoleon, als er ins Exil nach Elba ging), 
 123321
 

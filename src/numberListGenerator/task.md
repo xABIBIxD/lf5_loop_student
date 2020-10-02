@@ -1,6 +1,6 @@
 # Zahlengenerator *
 
-Die Klasse `Generator` bietet zwei methoden an um einen String mit einer Zahlenfolge zu generieren.
+Die Klasse `Generator` bietet zwei methoden an um einen String mit einer Zahlenfolge zu generieren. Die Zahlenfolge soll immer aufsteigend sein, d.h. der Startwert muss kleiner als der Endwert sein. Ist dies nicht der Fall, soll ein leerer String zurückgegeben werden.
 
 ### Aufgaben
 
